@@ -1,17 +1,18 @@
 let te = "Uwielbiam JavaScript";
 let tex = "Jestem świetnym programistą";
+let a = te.length;
+let b = tex.length;
 
-function ar(te, tex) {
-    /*for (te > tex)
-    let lenth_tx = tx;
-    let lenth_tex = tex;
-    if */
+function ar(a, b) {
+    //for (te > tex)
+
+    //if 
     //let length_te = te;
     //let length_tex = tex;
-    if ("te" > "tex") {
-        console.log(te);
-    } else if ("te" < "tex") {
-        console.log(tex);
+    if (a > b) {
+        console.log(a);
+    } else if (a < b) {
+        console.log(b);
         return ar;
     }
 
