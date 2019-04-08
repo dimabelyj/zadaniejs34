@@ -10,10 +10,12 @@ function ar(a, b) {
     //let length_te = te;
     //let length_tex = tex;
     if (a > b) {
-        console.log(a);
+        //console.log(a);
+        return a;
     } else if (a < b) {
-        console.log(b);
-        return ar;
+        //console.log(b);
+        return b;
     }
 
 }
+console.log(ar(a, b));
